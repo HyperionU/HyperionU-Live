@@ -223,4 +223,56 @@ $\frac{2}{3}\pm\sqrt{-\frac{11}{9}}$
     * $r,s=\frac{2}{3}\pm\sqrt{\frac{4}{9}-\frac{15}{9}}=\frac{2}{3}\pm\sqrt{-\frac{11}{9}}$.
 
 ---
+<!--_backgroundColor: var(--que)-->
+## Challenge
+
+8. Find the roots of $f(x)=2x^2-12x+20$.
+
+* $6\pm2$
+* $3\pm i$
+* $6\pm2i$
+* $3\pm1$
+
+---
+<!--_backgroundColor: var(--ans)-->
+# Answer
+
+$3\pm i$
+* After reducing the expression by $2$ to make the leading coefficient $1$, we are looking for the roots of $f(x)=x^2-6x+10$.
+* The roots $r,s=\quad{3}{10}=3\pm\sqrt{9-10}=3\pm i$
+
+---
+<!--_backgroundColor: var(--que)-->
+## Deriving the Formula
+
+9. For a quadratic $f(x)=ax^2+bx+c$, which of the following describes the roots of $f(x)$?
+
+* $\quad{(-\frac{b}{2a})}{\frac{c}{a}}$
+* $\quad{(-\frac{b}{2a})}{4ac}$
+* $-\frac{b}{2}\pm\sqrt{\frac{(-\frac{b}{2a})^2-4ac}{2a}}$
+* $-\frac{b}{2}\pm\sqrt{\frac{(-\frac{b}{2a})^2-c}{2a}}$
+
+---
+<!--_backgroundColor: var(--ans)-->
+# Answer
+
+$\quad{(-\frac{b}{2a})}{\frac{c}{a}}$
+* Dividing by the leading coefficient, the roots of $f(x)$ are the same as the roots of $x^2+b_rx+c_r$, where $n_r=\frac{n}{a}$
+* The midpoint $m=-\frac{1}{2}\frac{b}{a}=-\frac{b}{2a}$ and product $p=\frac{c}{a}$
+* This expands as $\quad{(-\frac{b}{2a})}{\frac{c}{a}}$.
+
+---
+<!--backgroundColor: var(--que)-->
+## Break Questions (not scored)
+
+---
+
+## Closing Question:
+
+10. How often do you expect to use the Quadratic Formula (traditional or simplified) in "real life", outside of school?
+
+* Never
+* Rarely
+* Sometimes
+* Always
 
