@@ -14,11 +14,13 @@ style: |
 backgroundColor: rgb(7,12,25)
 ---
 
+$\newcommand{\mid}[1]{-\frac{#1}{2}}$
 # <!--fit--> Hyperion University Lectures
 
 <span class="darken">By</span> Gen L.
 
 <!--_footer: Provided by Hyperion University, © 2023--> 
+$\newcommand{\quad}[2]{#1\pm\sqrt{#1^2-#2}}$
 
 ---
 
@@ -110,3 +112,115 @@ Probably the first thing that's in your mind is to iterate over all of the facto
 * This may appear a hack, but it works.
 
 ---
+
+## Quadratic Functions
+
+* A function with a degree of 2.
+* Often in the form $ax^2+bx+c$.
+* Not helpful in this form, so we must reduce this function.
+
+---
+
+## Quadratic Reduction
+
+* Reduces a function to have a leading coefficient of 1.
+* Example: $ax^2+bx+c\rightarrow x^2+\frac{b}{a}x+\frac{c}{a}$
+* To simplify, we rewrite the fractions as their reduced versions.
+* Reduced example: $ax^2+bx+c\rightarrow x^2+b_rx+c_r$ or $x^2+b'x+c'$.
+
+---
+<!--_backgroundColor: var(--que)-->
+## Challenge
+
+4.  $let\ r,s$ be the roots of the function $f(x)=x^2+bx+c$. 
+Which describes the relationship between the roots and coefficients?
+
+* $b=r+s,c=rs$
+* $b=rs,c=r+s$
+* $b=-(r+s),c=rs$
+* $b=rs,c=-(r+s)$
+
+---
+<!--_backgroundColor: var(--ans)-->
+# Answer
+
+$b=-(r+s),c=rs$
+* $f(x)=(x-r)(x-s)$, which has roots $r,s$, since if $x=r,x=s$, you get zero.
+* Once they are expanded, you get a quadratic with a leading coefficient of 1:
+    * $f(x)=(x-r)(x-s)=x^2-(r+s)x+rs$
+* Matching up the coefficients, we get $b=-(r+s),c=rs$.
+
+---
+<!--_backgroundColor: var(--que)-->
+## Challenge
+
+5. Now that we know that our midpoint $m=-\frac{b}{2}$, for any *reduced* quadratic $f(x)=x^2+bx+c$. 
+What is the roots of $f(x)$?
+
+* $m\pm\sqrt{m^2-c}$
+* $m\pm\sqrt{m^2-4c}$
+* $m\pm\sqrt{b^2-m}$
+* $m\pm\sqrt{b^2-4m}$
+
+---
+<!--_backgroundColor: var(--ans)-->
+# Answer
+
+$m\pm\sqrt{m^2-c}$
+* If we write our roots $r,s$ as $r=(m-d),s=(m+d)$, where $d$ is the distance their product is this:
+    * $rs=(m-d)(m+d)=m^2-d^2$.
+* Also, the product of the two roots must equal $c$.
+* We can express the roots of $f(x)$ as thus:
+* $m^2-d^2=c\implies d=m\pm\sqrt{m^2-c}$
+$\therefore r,s=m\pm\sqrt{m^2-c}$
+
+---
+
+## Our Simpler Quadratic Formula: $r,s=m\pm\sqrt{m^2-c}$
+
+---
+<!--_backgroundColor: var(--que)-->
+## Testing the formula
+
+* Let's take the formula for a test drive with some quadratics.
+6. Find the roots of $f(x)=x^2+10x+c$
+
+* $5\pm4$
+* $5\pm\sqrt{22}$
+* $-5\pm4$
+* $-5\pm\sqrt{22}$
+
+---
+<!--_backgroundColor: var(--ans)-->
+# Answer
+
+$-5\pm\sqrt{22}$
+* The midpoint $m=\mid{r+s}=\mid{b}=\mid{10}=-5$. The product $rs=3$.
+* Our answer then becomes $\quad{-5}{3}$
+    * $-5\pm\sqrt{25-3}=-5\pm\sqrt{22}$
+* With practice, this is something you can almost read off of the expression itself.
+
+---
+<!--_backgroundColor: var(--que)-->
+## Level 2: Reduction
+
+* Now, let's add on the step of reducing.
+7. Find the roots of $f(x)=3x^2-4x+5$.
+
+* $\frac{2}{3}\pm\sqrt{\frac{11}{9}}$
+* $\frac{2}{3}\pm\sqrt{-\frac{11}{9}}$
+* $2\pm\sqrt{-1}$
+* $2\pm1$
+
+---
+<!--_backgroundColor: var(--ans)-->
+# Answer
+
+$\frac{2}{3}\pm\sqrt{-\frac{11}{9}}$
+* After reducing the expression by 3 to get a leading coefficient of 1, we get: $f(x)=x^2-\frac{4}{3}x+\frac{5}{3}$.
+* The midpoint $m=\frac{2}{3}$, and product $c=\frac{5}{3}$.
+* Following the formula, we get: $\quad{(\frac{2}{3})}{\frac{5}{3}}$.
+    * $r,s=\frac{2}{3}\pm\sqrt{\frac{4}{9}-\frac{15}{9}}=\frac{2}{3}\pm\sqrt{-\frac{11}{9}}$.
+
+---
+
