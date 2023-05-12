@@ -162,3 +162,50 @@ $100\cdot\cos(80\deg)$
 
 ---
 
+## How to Compute Values
+
+* Some values of radians are special.
+* $\pi=180\deg,2\pi=360\deg$
+* $90\deg=\frac{\pi}{2}$, so every 90 degrees add $\pi/2$.
+
+---
+<!--_backgroundColor: var(--que)-->
+## On Computing Values
+
+6. What is $\sin(\frac{\pi}{6})$?
+
+* $\half$
+* $\frac{\sqrt{2}}{2}$
+* $\frac{\sqrt{3}}{2}$
+* $\frac{\sqrt{5}}{2}$
+
+---
+<!--_backgroundColor: var(--ans)-->
+# Answer
+
+$\sin(\frac{\pi}{6})=\frac{1}{2}$
+
+* $\frac{\pi}{6}\text{ radians}\equiv30\deg$
+* Using 30-60-90 triangles and SOH-CAH-TOA, $\sin(30\deg)=\half$
+* $\therefore\sin(\frac{\pi}{6})=\half$ 
+
+---
+<!--_backgroundColor: var(--que)-->
+## Cosine
+
+7. What is $\cos(\frac{\pi}{6})$?
+
+* $\half$
+* $\frac{\sqrt{2}}{2}$
+* $\frac{\sqrt{3}}{2}$
+* $\frac{\sqrt{5}}{2}$
+
+---
+<!--_backgroundColor: var(--ans)-->
+# Answer
+
+$\cos(\frac{\pi}{6})=\frac{\sqrt{3}}{2}$
+
+* $\frac{\pi}{6}\text{ radians}\equiv30\deg$
+* Using 30-60-90 triangles and SOH-CAH-TOA, $\cos(30\deg)=\frac{\sqrt{3}}{2}$
+* $\therefore\cos(\frac{\pi}{6})=\frac{\sqrt{3}}{2}$ 
