@@ -209,3 +209,76 @@ $\cos(\frac{\pi}{6})=\frac{\sqrt{3}}{2}$
 * $\frac{\pi}{6}\text{ radians}\equiv30\deg$
 * Using 30-60-90 triangles and SOH-CAH-TOA, $\cos(30\deg)=\frac{\sqrt{3}}{2}$
 * $\therefore\cos(\frac{\pi}{6})=\frac{\sqrt{3}}{2}$ 
+
+---
+<!--_backgroundColor: var(--que)-->
+## 'Circle' Back
+
+8. What is $\cos(-\frac{2\pi}{3})$?
+
+* $\half$
+* $-\half$
+* $\frac{\sqrt{3}}{2}$
+* $-\frac{\sqrt{3}}{2}$
+
+---
+<!--_backgroundColor: var(--ans)-->
+# Answer
+* $-\half$
+* This diagram illustrates the point $-\frac{2\pi}{3}$ radians around the circle. 
+* This forms a 30-60-90 triangle revealing that the x-coordinate of the point is $-\half$.
+
+![bg left invert:100%](https://public.itempooluserdata.com/lPNaQMCu4sLYdHGlo7j4F-398.webp)
+
+---
+<!--_backgroundColor: var(--que)-->
+## Exact Values of Non-Exact Angles
+
+9. What is $\cos(\frac{\pi}{12})$?
+
+* $\sqrt{(\frac{1-\sqrt{3}/2}{2})}$
+* $\sqrt{(\frac{1+\sqrt{3}/2}{2})}$
+* $\sqrt{\frac{\sqrt{3}}{4}}$
+* $\frac{\sqrt{3}}{4}$
+
+---
+<!--_backgroundColor: var(--ans)-->
+# Answer
+
+* $\sqrt{(\frac{1+\sqrt{3}/2}{2})}$
+* Noting that $\cos^2(x)=\frac{1+\cos(2x)}{2}$, that we found by playing with graphs, then let $x=\frac{pi}{12}$. 
+* Together with the fact that $\cos(\frac{\pi}{6})=\frac{\sqrt{3}}{2}$, we get: $\cos^2(\frac{\pi}{12})=\frac{1+\sqrt{3}/2}{2},\ \therefore\cos(\frac{\pi}{12})=\sqrt{(\frac{1+\sqrt{3}/2}{2})}$.
+
+---
+<!--_backgroundColor: var(--que)-->
+## Advanced Trig Functions
+
+10. Which is the graph of $\tan(x)$?
+
+![h:300](https://public.itempooluserdata.com/QjhF7lIZ1NTQbhi5AfJhy-600.webp)
+
+---
+<!--_backgroundColor: var(--ans)-->
+# Answer
+* A
+* The key is to note that $\tan(0)=0$, and as $\theta\to\frac{\pi}{2},\tan(\theta)\to\infty$. Only graph A exhibits this pattern.
+
+---
+
+## Determining $\tan(x)$: Visual 1
+
+* There are two ways to see this.  One is to look at the visual below and to see how the relevant tangent line off the circle has a length $\ell=[0,\infty]$.
+![invert:1](https://public.itempooluserdata.com/K82qKhn-rLKDdCy9WYjHW-1120.webp)
+
+---
+
+## Determining $\tan(x)$: Visual 2
+
+The other way is that $\tan(\theta)=\frac{\sin(\theta)}{\cos(\theta)}$, and consider this fraction as we range $\theta=[0,\frac{\pi}{2}]$. At 
+$\theta=0,\sin(\theta)=0$, so the fraction equals 0, while at $\theta=\frac{\pi}{2},\cos(\theta)\to0\therefore\tan(\theta)\to\infty$.
+
+---
+
+## Challenge:
+
+* Pick an integer: $x\in\mathbb{Z}$. Which integer will be the most popular choice?
