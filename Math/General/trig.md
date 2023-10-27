@@ -21,7 +21,7 @@ $\def\posR{\mathbb{R}^+}$
 <span class="darken">By</span> Gen L.
 
 <!--_footer: Provided by Hyperion University, © 2023--> 
-$\def\csq{\cos(x)^2}$
+$\def\csq{\cos^2(x)}$
 $\def\deg{^\circ}$
 
 ---
@@ -51,7 +51,7 @@ Trig functions can be affected by a multitude of factors, including:
 
 How about squaring the function?
 
-1. What is the graph of $f(x)=(\cos(x))^2$?
+1. What is the graph of $f(x)=\cos^2(x)$?
 
 ![w:1000](https://public.itempooluserdata.com/yfFtME_lZCCHwhQWANUIv-600.webp)
 
@@ -59,7 +59,7 @@ How about squaring the function?
 <!--_backgroundColor: var(--ans)-->
 # Answer
 
-$f(x)=\cos(x)^2$ is similar to C.
+$f(x)=\cos^2(x)$ is similar to C.
 
 * D can be ruled out, as there is negative values.
 * Squaring smooth functions never create cusps, so we can rule out B.
@@ -246,7 +246,7 @@ $\cos(\frac{\pi}{6})=\frac{\sqrt{3}}{2}$
 # Answer
 
 * $\sqrt{(\frac{1+\sqrt{3}/2}{2})}$
-* Noting that $\cos^2(x)=\frac{1+\cos(2x)}{2}$, that we found by playing with graphs, then let $x=\frac{pi}{12}$. 
+* Noting that $\cos^2(x)=\frac{1+\cos(2x)}{2}$, that we found by playing with graphs, then let $x=\frac{\pi}{12}$. 
 * Together with the fact that $\cos(\frac{\pi}{6})=\frac{\sqrt{3}}{2}$, we get: $\cos^2(\frac{\pi}{12})=\frac{1+\sqrt{3}/2}{2},\ \therefore\cos(\frac{\pi}{12})=\sqrt{(\frac{1+\sqrt{3}/2}{2})}$.
 
 ---
