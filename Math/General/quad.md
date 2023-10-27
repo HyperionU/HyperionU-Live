@@ -183,7 +183,7 @@ $\therefore r,s=m\pm\sqrt{m^2-c}$
 ## Testing the formula
 
 * Let's take the formula for a test drive with some quadratics.
-6. Find the roots of $f(x)=x^2+10x+c$
+6. Find the roots of $f(x)=x^2+10x+3$
 
 * $5\pm4$
 * $5\pm\sqrt{22}$
