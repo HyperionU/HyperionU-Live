@@ -60,7 +60,7 @@ Probably the first thing that's in your mind is to iterate over all of the facto
 <!--_backgroundColor: var(--ans)-->
 # Answer:
 * $143$ has $2$ prime factors: $11\times13$.
-* Note: both factors are $1$ above and below 12, and $143=12^2-1=144-1$. *Why is this notable?*
+* Note: both factors are $1$ above and below 12, and $143=12^2-1=144-1$. *Why is this of note?*
 
 ---
 <!--_backgroundColor: var(--que)-->
