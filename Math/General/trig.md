@@ -83,7 +83,7 @@ $\csq=\half(\cos(2x)+1)$
 
 * $\csq\in\posR$, so we add 1 to get $\cos(x)+1,x\in\posR$.
 * However, $\max(\cos(x)+1)=2$, so we squish by 2 to get $\half(\cos(x)+1),\max(\half(\cos(x))+1)=1$
-* Then, squish the phase by 2 to get $\half(\cos(2x)+1)$.
+* Then, squish the period by 2 to get $\half(\cos(2x)+1)$.
 
 ---
 <!--_backgroundColor: var(--que)-->
