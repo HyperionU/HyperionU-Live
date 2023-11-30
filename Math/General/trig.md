@@ -267,7 +267,7 @@ $\cos(\frac{\pi}{6})=\frac{\sqrt{3}}{2}$
 
 ## Determining $\tan(x)$: Visual 1
 
-* There are two ways to see this.  One is to look at the visual below and to see how the relevant tangent line off the circle has a length $\ell=[0,\infty]$.
+* There are two ways to see this.  One is to look at the visual below and to see how the relevant tangent line off the circle has a length $\ell=[0,\infty)$.
 ![invert:1](https://public.itempooluserdata.com/K82qKhn-rLKDdCy9WYjHW-1120.webp)
 
 ---
